@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+@import "../../node_modules/animate.css/animate.css";
 body {
   font-family: "Roboto Mono", monospace !important;
 }
@@ -10170,6 +10171,7 @@ header.header nav.navbar a.navbar-brand img {
     background-color: transparent !important;
   }
   header.header nav.navbar div.collapse ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
     font-size: 22px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -10180,5 +10182,75 @@ header.header nav.navbar a.navbar-brand img {
   }
   header.header nav.navbar div.collapse ul.navbar-nav li.nav-item a.nav-link img {
     width: 40px;
+  }
+}
+section.banner {
+  height: 720px;
+  width: 100%;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+section.banner div.bg-upper-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(5, 40, 91, 0.7);
+}
+section.banner div.bg-upper-layer img {
+  height: 100%;
+  transform: scaleX(1.2);
+  transform-origin: left;
+}
+section.banner div.content-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+section.banner div.content-wrapper div.container div.content-layer {
+  width: 500px;
+  height: 300px;
+  margin-top: 450px;
+}
+section.banner div.content-wrapper div.container div.content-layer h2, section.banner div.content-wrapper div.container div.content-layer .h2 {
+  color: #0b5cd5 !important;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+section.banner div.content-wrapper div.container div.content-layer form {
+  position: relative;
+}
+section.banner div.content-wrapper div.container div.content-layer form input {
+  border-radius: 33px;
+  box-shadow: 3px 10px 11px 1px #a29f9f;
+  padding: 15px 142px 15px 24px;
+}
+section.banner div.content-wrapper div.container div.content-layer form input::placeholder {
+  font-size: 20px;
+}
+section.banner div.content-wrapper div.container div.content-layer form button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  bottom: 5px;
+  border-radius: 33px;
+}
+
+@media (max-width: 991.98px) {
+  section.banner {
+    height: 100vh;
+  }
+  section.banner div.bg-upper-layer img {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  section.banner {
+    height: 100vh;
   }
 }

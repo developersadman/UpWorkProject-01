@@ -1,0 +1,79 @@
+section.banner {
+  height: 720px;
+  width: 100%;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+
+  div.bg-upper-layer {
+    @include position(absolute, 0 0 0 0);
+    background-color: transparentize($blue-900, .3);
+
+    img {
+      height: 100%;
+      transform: scaleX(1.2);
+      transform-origin: left;
+    }
+  }
+
+  div.content-wrapper {
+    @include position(absolute, 0 0 0 0);
+
+    div.container {
+      div.content-layer {
+        width: 500px;
+        height: 300px;
+        margin-top: 450px;
+
+        h2 {
+          color: $primary !important;
+          letter-spacing: 3px;
+          font-weight: 700;
+        }
+
+        form {
+          position: relative;
+          input {
+
+            border-radius: 33px;
+            box-shadow: 3px 10px 11px 1px #a29f9f;
+            padding: 15px 142px 15px 24px;
+            &::placeholder {
+              font-size: 20px;
+            }
+          }
+
+          button {
+            @include position(absolute, 5px 10px 5px null);
+            border-radius: 33px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@include media-breakpoint-down(lg) {
+  section.banner {
+    height: 100vh;
+
+    div.bg-upper-layer {
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  section.banner {
+    height: 100vh;
+
+    div.bg-upper-layer {
+      img {
+      }
+    }
+  }
+}

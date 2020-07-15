@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "bourbon": "^7.0.0",
+    "animate.css": "^4.1.0",
     "bootstrap": "^5.0.0-alpha1",
+    "bourbon": "^7.0.0",
+    "jQuery": "^1.7.4",
     "poper": "^0.1.1"
   }
 }

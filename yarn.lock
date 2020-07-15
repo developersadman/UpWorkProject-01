@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+animate.css@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-4.1.0.tgz#dec2aabe4babfc6f6777f9a5cccd132838729b50"
+  integrity sha512-0aVcfWDeU9ykV6vjn1P67ZSs01jxoUQZCGaYbkk0SIIelIG8kUdLrIkua1+VabHfTtsSivDRMMn0ILPvZum2gw==
+
 bootstrap@^5.0.0-alpha1:
   version "5.0.0-alpha1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.0.0-alpha1.tgz#cd35be4282bc930322bcbf1db23a8729c60a31cb"
@@ -16,6 +21,11 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+jQuery@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/jQuery/-/jQuery-1.7.4.tgz#f32dc5c85a7044ee864b4443b9ee45f9478ba137"
+  integrity sha1-8y3FyFpwRO6GS0RDue5F+UeLoTc=
 
 poper@^0.1.1:
   version "0.1.1"

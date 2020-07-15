@@ -13,7 +13,6 @@ header.header {
       ul.navbar-nav {
         li.nav-item {
           a.nav-link {
-
           }
         }
         li.nav-item.active {
@@ -42,6 +41,7 @@ header.header {
         ul.navbar-nav {
           li.nav-item {
             a.nav-link {
+              color: $white;
               font-size: 22px;
               padding-left: 1rem;
               padding-right: 1rem;
