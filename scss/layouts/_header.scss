@@ -1,0 +1,61 @@
+/* Style for header section */
+header.header {
+  nav.navbar {
+    a.navbar-brand {
+      img {
+        width: 200px;
+      }
+    }
+    button.navbar-toggler {
+      span.navbar-toggler-icon {}
+    }
+    div.collapse {
+      ul.navbar-nav {
+        li.nav-item {
+          a.nav-link {
+
+          }
+        }
+        li.nav-item.active {
+          a.nav-link {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+//
+@include media-breakpoint-up(lg) {
+  header.header {
+    nav.navbar {
+      background-color: transparent !important;
+      a.navbar-brand {
+        img {
+        }
+      }
+      button.navbar-toggler {
+        span.navbar-toggler-icon {}
+      }
+      div.collapse {
+        ul.navbar-nav {
+          li.nav-item {
+            a.nav-link {
+              font-size: 22px;
+              padding-left: 1rem;
+              padding-right: 1rem;
+              letter-spacing: 3px;
+              &:nth-last-child {
+               padding: 0;
+              }
+              img {
+                width: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

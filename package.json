@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "bourbon": "^7.0.0",
-    "bootstrap": "^5.0.0-alpha1"
+    "bootstrap": "^5.0.0-alpha1",
+    "poper": "^0.1.1"
   }
 }

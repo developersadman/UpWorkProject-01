@@ -11,3 +11,15 @@ bourbon@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/bourbon/-/bourbon-7.0.0.tgz#42c0b691e99cb1f7616aad2a11b17ab88bbc4918"
   integrity sha512-49kyBY+4gwnEvnez8H0TzFjfNZpUVdCmmS873S9nQ6YUuh2+qesbOh8lA+9gAuWlqtYlF+/3Etxm/13RhceOrg==
+
+escape-string-regexp@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
+  integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+poper@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/poper/-/poper-0.1.1.tgz#6594f4d21ed47fc6db62d4870e3224206d0cae3c"
+  integrity sha1-ZZT00h7Uf8bbYtSHDjIkIG0Mrjw=
+  dependencies:
+    escape-string-regexp "^1.0.5"
