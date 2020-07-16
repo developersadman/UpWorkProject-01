@@ -10260,41 +10260,32 @@ section.about {
 }
 
 section.works {
-  width: 100%;
-  display: flex;
-}
-section.works .images {
-  height: 550px;
-  width: 100%;
-  position: absolute;
-}
-section.works div.container {
-  position: relative;
-}
-section.works div.container div.row div.col img {
-  width: 600px;
-}
-section.works div.container div.row div.col a {
-  letter-spacing: 2px;
-  color: white;
-  text-decoration: none;
-  font-family: cursive;
-  font-weight: 500;
-  font-size: 35px;
-  margin-left: 200px;
-  float: left;
-}
-section.works div.container div.row div.col div.div-img {
-  float: left;
-}
-section.works div.container div.row div.col div.div-img img {
-  width: 70px;
-  float: right;
-  margin-right: -70px;
-}
-section.works div.container div.row div.col div.div-p {
-  color: orange;
-  font-size: 18px;
-  margin-top: 140px;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-size: cover;
+  background-position-y: 20px;
+}
+section.works div.container-fluid div.row div.col-12 a, section.works div.container-sm div.row div.col-12 a, section.works div.container-md div.row div.col-12 a, section.works div.container-lg div.row div.col-12 a, section.works div.container-xl div.row div.col-12 a, section.works div.container-xxl div.row div.col-12 a {
+  color: #0b5cd5;
+  font-size: 33px;
+  font-family: cursive;
+  text-decoration: none;
+}
+section.works div.container-fluid div.row div.col-12 a img, section.works div.container-sm div.row div.col-12 a img, section.works div.container-md div.row div.col-12 a img, section.works div.container-lg div.row div.col-12 a img, section.works div.container-xl div.row div.col-12 a img, section.works div.container-xxl div.row div.col-12 a img {
+  width: 70px;
+}
+section.works div.container-fluid div.row div.col-12 p, section.works div.container-sm div.row div.col-12 p, section.works div.container-md div.row div.col-12 p, section.works div.container-lg div.row div.col-12 p, section.works div.container-xl div.row div.col-12 p, section.works div.container-xxl div.row div.col-12 p {
+  color: white;
+  white-space: pre-wrap;
+}
+section .box-shadow {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section .box-shadow div.row div.col-12 div.single-content {
+  box-shadow: 0 0 0 5px crimson;
+}
+section .box-shadow div.row div.col-12 div.single-content .img-fluid {
+  border-radius: 50%;
 }
