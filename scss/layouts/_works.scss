@@ -1,0 +1,53 @@
+section.works{
+  width: 100%;
+  display: flex;
+  .images{
+    height: 550px;
+    width: 100%;
+    position: absolute;
+  }
+  div.container{
+    position: relative;
+    div.row{
+      div.col{
+        img {
+          width: 600px;
+         
+        }
+
+
+        a {
+          letter-spacing: 2px;
+          color: white;
+          text-decoration: none;
+          font-family: cursive;
+          font-weight: 500;
+          font-size: 35px;
+          margin-left: 200px;
+          float: left;
+
+        }
+        div.div-img{
+          float: left;
+          img {
+            width: 70px;
+            float: right;
+            margin-right: -70px;
+
+          }
+        }
+       div.div-p{
+          color: orange;
+          font-size: 18px;
+         margin-top: 140px;
+         text-align: center;
+
+
+
+
+        }
+      }
+
+    }
+  }
+}

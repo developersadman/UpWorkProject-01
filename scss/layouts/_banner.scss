@@ -5,13 +5,14 @@ section.banner {
   position: relative;
   overflow: hidden;
   background-size: cover;
+  z-index: 1;
 
   div.bg-upper-layer {
     @include position(absolute, 0 0 0 0);
     background-color: transparentize($blue-900, .3);
 
     img {
-      height: 100%;
+      height: 101%;
       transform: scaleX(1.2);
       transform-origin: left;
     }
@@ -21,6 +22,7 @@ section.banner {
     @include position(absolute, 0 0 0 0);
 
     div.container {
+
       div.content-layer {
         width: 500px;
         height: 300px;
@@ -34,11 +36,13 @@ section.banner {
 
         form {
           position: relative;
+
           input {
 
             border-radius: 33px;
             box-shadow: 3px 10px 11px 1px #a29f9f;
             padding: 15px 142px 15px 24px;
+
             &::placeholder {
               font-size: 20px;
             }
